@@ -11,10 +11,10 @@ namespace YgoMaster
     partial class GameServer
     {
         // EDITED
-        void UpgradeLoanerDeckFinish(DuelSettings duelSettings, PlayerCards playerCards)
+        void UpgradeLoanerDeckFinish(DuelSettings duelSettings, Player player)
         {
-            PlayerCards playerCardsCopy = new PlayerCards();
-            playerCardsCopy.FromDictionary(playerCards.ToDictionary());
+            PlayerCards playerCardsCopy = new PlayerCards(player);
+            playerCardsCopy.FromDictionary(player.Cards.ToDictionary());
             DeckInfo loanerDeck = duelSettings.Deck[DuelSettings.PlayerIndex];
             UpgradeDeckFinishImpl(loanerDeck.MainDeckCards, playerCardsCopy);
             UpgradeDeckFinishImpl(loanerDeck.ExtraDeckCards, playerCardsCopy);
@@ -56,10 +56,10 @@ namespace YgoMaster
             }
         }
 
-        void UpgradeCpuDeckFinish(DuelSettings duelSettings, PlayerCards playerCards, int chapterId)
+        void UpgradeCpuDeckFinish(DuelSettings duelSettings, Player player, int chapterId)
         {
-            PlayerCards playerCardsCopy = new PlayerCards();
-            playerCardsCopy.FromDictionary(playerCards.ToDictionary());
+            PlayerCards playerCardsCopy = new PlayerCards(player);
+            playerCardsCopy.FromDictionary(player.Cards.ToDictionary());
             CardStyleRarity minStyle = CardStyleRarity.Normal;
             double minStyleRoyalRate = GetUpgradeCpuDeckMinStyleRoyalRate(chapterId);
             double minStyleShineRate = GetUpgradeCpuDeckMinStyleShineRate(chapterId);
@@ -359,7 +359,7 @@ namespace YgoMaster
                     }
                     DeckInfo[] randomDecks = { playerDeck, cpuDeck };
                     duelSettings.SetDeck(randomDecks);
-                    UpgradeLoanerDeckFinish(duelSettings, player.Cards);
+                    UpgradeLoanerDeckFinish(duelSettings, player);
                 }
                 // Randomise battlefield and accessories for LE and mystery chapters.
                 if (IsLeChapter(duelSettings.chapter) || IsMysteryDuelChapter(duelSettings.chapter))
@@ -407,7 +407,7 @@ namespace YgoMaster
                     }
                 }
 
-                UpgradeCpuDeckFinish(duelSettings, player.Cards, chapterId);
+                UpgradeCpuDeckFinish(duelSettings, player, chapterId);
                 // END EDITED
             }
             return duelSettings;

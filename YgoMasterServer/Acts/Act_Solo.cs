@@ -25,7 +25,7 @@ namespace YgoMaster
 
         bool IsLeCampaignChapter(int chapterId)
         {
-            return 11010000 <= chapterId && chapterId <= 11069999;    
+            return 11010000 <= chapterId && chapterId <= 11069999;
         }
 
         bool IsLeDuelistChallengeChapter(int chapterId)
@@ -879,7 +879,8 @@ namespace YgoMaster
                 if (isChapterGoal)
                 {
                     gateClear["gate"] = gateId;
-                };
+                }
+                ;
                 if (unlockedPackData != null)
                 {
                     gateClear["pack"] = unlockedPackData;
@@ -1197,7 +1198,7 @@ namespace YgoMaster
                     if (duel.Deck[DuelSettings.PlayerIndex].MainDeckCards.Count > 0)
                     {
                         // EDITED
-                        UpgradeLoanerDeckFinish(duel, request.Player.Cards);
+                        UpgradeLoanerDeckFinish(duel, request.Player);
                         // END EDITED
                         chapterInfo["story_deck"] = duel.Deck[DuelSettings.PlayerIndex].ToDictionary();
                         chapterInfo["story_deck_id"] = duel.story_deck_id != null && duel.story_deck_id.Length > 0 ? duel.story_deck_id[0] : 0;
