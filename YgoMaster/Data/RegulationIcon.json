@@ -2091,5 +2091,539 @@
     "name": "IDS_REGULATION_LINK",
     "icon": "RegulationLogoLink",
     "enable_room": "1"
+  },
+  "13001": {
+    "id": "13001",
+    "regulation_id": 13001,
+    "name": "TCG 01_LOB 2002-05 Yugi Kaiba Format",
+    "icon": "RegulationLogo01"
+  },
+  "13002": {
+    "id": "13002",
+    "regulation_id": 13002,
+    "name": "TCG 02_MRD 2002-07 Critter Format",
+    "icon": "RegulationLogo02"
+  },
+  "13003": {
+    "id": "13003",
+    "regulation_id": 13003,
+    "name": "TCG 03_SRL 2002-10 Treasure Format",
+    "icon": "RegulationLogo03"
+  },
+  "13004": {
+    "id": "13004",
+    "regulation_id": 13004,
+    "name": "TCG 04_PSV 2002-12 Imperial Format",
+    "icon": "RegulationLogo04"
+  },
+  "13005": {
+    "id": "13005",
+    "regulation_id": 13005,
+    "name": "TCG 05_LON 2003-04 Android Format",
+    "icon": "RegulationLogo05"
+  },
+  "13006": {
+    "id": "13006",
+    "regulation_id": 13006,
+    "name": "TCG 05_LON 2003-05 Joey Pegasus Format",
+    "icon": "RegulationLogo05"
+  },
+  "13007": {
+    "id": "13007",
+    "regulation_id": 13007,
+    "name": "TCG 06_LOD 2003-07 Fiber Format",
+    "icon": "RegulationLogo06"
+  },
+  "13008": {
+    "id": "13008",
+    "regulation_id": 13008,
+    "name": "TCG 07_PGD 2003-08 Yata Format",
+    "icon": "RegulationLogo07"
+  },
+  "13009": {
+    "id": "13009",
+    "regulation_id": 13009,
+    "name": "TCG 08_MFC 2003-11 Scientist Format",
+    "icon": "RegulationLogo08"
+  },
+  "13010": {
+    "id": "13010",
+    "regulation_id": 13010,
+    "name": "TCG 09_DCR 2004-02 Vampire Format",
+    "icon": "RegulationLogo09"
+  },
+  "13011": {
+    "id": "13011",
+    "regulation_id": 13011,
+    "name": "TCG 10_IOC 2004-04 Chaos Format",
+    "icon": "RegulationLogo10"
+  },
+  "13012": {
+    "id": "13012",
+    "regulation_id": 13012,
+    "name": "TCG 11_AST 2004-08",
+    "icon": "RegulationLogo11"
+  },
+  "13013": {
+    "id": "13013",
+    "regulation_id": 13013,
+    "name": "TCG 11_AST 2004-10 Warrior Format",
+    "icon": "RegulationLogo11"
+  },
+  "13014": {
+    "id": "13014",
+    "regulation_id": 13014,
+    "name": "TCG 12_SOD 2005-04 Goat/Cyber Format",
+    "icon": "RegulationLogo12"
+  },
+  "13015": {
+    "id": "13015",
+    "regulation_id": 13015,
+    "name": "TCG 13_RDS 2005-04 Goat/Cyber Format",
+    "icon": "RegulationLogo13"
+  },
+  "13016": {
+    "id": "13016",
+    "regulation_id": 13016,
+    "name": "TCG 14_FET 2005-04 Goat/Cyber Format",
+    "icon": "RegulationLogo14"
+  },
+  "13017": {
+    "id": "13017",
+    "regulation_id": 13017,
+    "name": "TCG 15_TLM 2005-10 Reaper Format",
+    "icon": "RegulationLogo15"
+  },
+  "13018": {
+    "id": "13018",
+    "regulation_id": 13018,
+    "name": "TCG 16_CRV 2005-10 Reaper Format",
+    "icon": "RegulationLogo16"
+  },
+  "13019": {
+    "id": "13019",
+    "regulation_id": 13019,
+    "name": "TCG 17_EEN 2006-04 Chaos Return Format",
+    "icon": "RegulationLogo17"
+  },
+  "13020": {
+    "id": "13020",
+    "regulation_id": 13020,
+    "name": "TCG 18_SOI 2006_04 Chaos Return Format",
+    "icon": "RegulationLogo18"
+  },
+  "13021": {
+    "id": "13021",
+    "regulation_id": 13021,
+    "name": "TCG 19_EOJ 2006-09 Stein Format",
+    "icon": "RegulationLogo19"
+  },
+  "13022": {
+    "id": "13022",
+    "regulation_id": 13022,
+    "name": "TCG 20_POTD 2006-09 Stein Format",
+    "icon": "RegulationLogo20"
+  },
+  "13023": {
+    "id": "13023",
+    "regulation_id": 13023,
+    "name": "TCG 21_CDIP 2007-03 Chimeratech/Airblade Format",
+    "icon": "RegulationLogo21"
+  },
+  "13024": {
+    "id": "13024",
+    "regulation_id": 13024,
+    "name": "TCG 22_STON 2007-06 Trooper Format",
+    "icon": "RegulationLogo22"
+  },
+  "13025": {
+    "id": "13025",
+    "regulation_id": 13025,
+    "name": "TCG 23_FOTB 2007-06 Trooper Format",
+    "icon": "RegulationLogo23"
+  },
+  "13026": {
+    "id": "13026",
+    "regulation_id": 13026,
+    "name": "TCG 24_TAEV 2007-09 Zombie/Perfect Circle/Phantom Format",
+    "icon": "RegulationLogo24"
+  },
+  "13027": {
+    "id": "13027",
+    "regulation_id": 13027,
+    "name": "TCG 25_GLAS 2008-03 DAD Return Format",
+    "icon": "RegulationLogo25"
+  },
+  "13028": {
+    "id": "13028",
+    "regulation_id": 13028,
+    "name": "TCG 26_PTDN 2008_03 DAD Return Format",
+    "icon": "RegulationLogo26"
+  },
+  "13029": {
+    "id": "13029",
+    "regulation_id": 13029,
+    "name": "TCG 27_LODT 2008-09 TeleDAD Format",
+    "icon": "RegulationLogo27"
+  },
+  "13030": {
+    "id": "13030",
+    "regulation_id": 13030,
+    "name": "TCG 28_TDGS 2009-03 Cat Format",
+    "icon": "RegulationLogo28"
+  },
+  "13031": {
+    "id": "13031",
+    "regulation_id": 13031,
+    "name": "TCG 29_CSOC 2009-03 Cat Format",
+    "icon": "RegulationLogo29"
+  },
+  "13032": {
+    "id": "13032",
+    "regulation_id": 13032,
+    "name": "TCG 30_CRMS 2009-03 Cat Format",
+    "icon": "RegulationLogo30"
+  },
+  "13033": {
+    "id": "13033",
+    "regulation_id": 13033,
+    "name": "TCG 31_RGBT 2009_09 Lightsworn Format",
+    "icon": "RegulationLogo31"
+  },
+  "13034": {
+    "id": "13034",
+    "regulation_id": 13034,
+    "name": "TCG 32_ANPR 2010_03 Edison/Frog Format",
+    "icon": "RegulationLogo32"
+  },
+  "13035": {
+    "id": "13035",
+    "regulation_id": 13035,
+    "name": "TCG 33_SOVR 2010-03 Edison/Frog Format",
+    "icon": "RegulationLogo33"
+  },
+  "13036": {
+    "id": "13036",
+    "regulation_id": 13036,
+    "name": "TCG 34_ABPF 2010-03 Edison/Frog Format",
+    "icon": "RegulationLogo34"
+  },
+  "13037": {
+    "id": "13037",
+    "regulation_id": 13037,
+    "name": "TCG 35_TSHD 2010-09 X-Saber/Starstrike/Six Samurai Format",
+    "icon": "RegulationLogo35"
+  },
+  "13038": {
+    "id": "13038",
+    "regulation_id": 13038,
+    "name": "TCG 36_DREV 2010-09 X-Saber/Starstrike/Six Samurai Format",
+    "icon": "RegulationLogo36"
+  },
+  "13039": {
+    "id": "13039",
+    "regulation_id": 13039,
+    "name": "TCG 37_STBL 2011-03 Trishula/Librarian Format",
+    "icon": "RegulationLogo37"
+  },
+  "13040": {
+    "id": "13040",
+    "regulation_id": 13040,
+    "name": "TCG 38_STOR 2011-03 Trishula/Librarian Format",
+    "icon": "RegulationLogo38"
+  },
+  "13041": {
+    "id": "13041",
+    "regulation_id": 13041,
+    "name": "TCG 39_EXVC 2011-09 Tengu Plant/Underworld/Shockwave Format",
+    "icon": "RegulationLogo39"
+  },
+  "13042": {
+    "id": "13042",
+    "regulation_id": 13042,
+    "name": "TCG 40_GENF 2011-09 Tengu Plant/Underworld/Shockwave Format",
+    "icon": "RegulationLogo40"
+  },
+  "13043": {
+    "id": "13043",
+    "regulation_id": 13043,
+    "name": "TCG 41_PHSW 2012-03 Dino Rabbit/Long Beach Format",
+    "icon": "RegulationLogo41"
+  },
+  "13044": {
+    "id": "13044",
+    "regulation_id": 13044,
+    "name": "TCG 42_ORCS 2012-03 Dino Rabbit/Long Beach Format",
+    "icon": "RegulationLogo42"
+  },
+  "13045": {
+    "id": "13045",
+    "regulation_id": 13045,
+    "name": "TCG 43_GAOV 2012-09 Wind-Up/Miami Format",
+    "icon": "RegulationLogo43"
+  },
+  "13046": {
+    "id": "13046",
+    "regulation_id": 13046,
+    "name": "TCG 44_REDU 2012-09 Wind-Up/Miami Format",
+    "icon": "RegulationLogo44"
+  },
+  "13047": {
+    "id": "13047",
+    "regulation_id": 13047,
+    "name": "TCG 45_ABYR 2013-03 Meadowlands/Baby Ruler Format",
+    "icon": "RegulationLogo45"
+  },
+  "13048": {
+    "id": "13048",
+    "regulation_id": 13048,
+    "name": "TCG 46_CBLZ 2013-03 Meadowlands/Baby Ruler Format",
+    "icon": "RegulationLogo46"
+  },
+  "13049": {
+    "id": "13049",
+    "regulation_id": 13049,
+    "name": "TCG 47_LTGY 2013-09 Ravine Ruler Format",
+    "icon": "RegulationLogo47"
+  },
+  "13050": {
+    "id": "13050",
+    "regulation_id": 13050,
+    "name": "TCG 48_JOTL 2013-09 Ravine Ruler Format",
+    "icon": "RegulationLogo48"
+  },
+  "13051": {
+    "id": "13051",
+    "regulation_id": 13051,
+    "name": "TCG 49_SHSP 2014-01 Fire-Water Format",
+    "icon": "RegulationLogo49"
+  },
+  "13052": {
+    "id": "13052",
+    "regulation_id": 13052,
+    "name": "TCG 50_LVAL 2014-04 HAT/Vegas Format",
+    "icon": "RegulationLogo50"
+  },
+  "13053": {
+    "id": "13053",
+    "regulation_id": 13053,
+    "name": "TCG 51_PRIO 2014-07 Shaddoll Format",
+    "icon": "RegulationLogo51"
+  },
+  "13054": {
+    "id": "13054",
+    "regulation_id": 13054,
+    "name": "TCG 52_DUEA 2014-10 Burning Abyss Format",
+    "icon": "RegulationLogo52"
+  },
+  "13055": {
+    "id": "13055",
+    "regulation_id": 13055,
+    "name": "TCG 53_NECH 2015_01 Charleston Format",
+    "icon": "RegulationLogo53"
+  },
+  "13056": {
+    "id": "13056",
+    "regulation_id": 13056,
+    "name": "TCG 54_SECE 2025-04 Nekroz Format",
+    "icon": "RegulationLogo54"
+  },
+  "13057": {
+    "id": "13057",
+    "regulation_id": 13057,
+    "name": "TCG 55_CROS 2015-07 Clown Format",
+    "icon": "RegulationLogo55"
+  },
+  "13058": {
+    "id": "13058",
+    "regulation_id": 13058,
+    "name": "TCG 56_CORE 2015-11 PePe Format",
+    "icon": "RegulationLogo56"
+  },
+  "13059": {
+    "id": "13059",
+    "regulation_id": 13059,
+    "name": "TCG 57_DOCS 2016-04 DracoPal/Monarch Format",
+    "icon": "RegulationLogo57"
+  },
+  "13060": {
+    "id": "13060",
+    "regulation_id": 13060,
+    "name": "TCG 58_BOSH 2016-04 DracoPal/Monarch Format",
+    "icon": "RegulationLogo58"
+  },
+  "13061": {
+    "id": "13061",
+    "regulation_id": 13061,
+    "name": "TCG 59_SHVI 2016-08 ABC Format",
+    "icon": "RegulationLogo59"
+  },
+  "13062": {
+    "id": "13062",
+    "regulation_id": 13062,
+    "name": "TCG 60_TDIL 2017-03 Grass Zoo Format",
+    "icon": "RegulationLogo60"
+  },
+  "13063": {
+    "id": "13063",
+    "regulation_id": 13063,
+    "name": "TCG 61_INOV 2017-03 Grass Zoo Format",
+    "icon": "RegulationLogo61"
+  },
+  "13064": {
+    "id": "13064",
+    "regulation_id": 13064,
+    "name": "TCG 62_RATE 2017-03 Grass Zoo Format",
+    "icon": "RegulationLogo62"
+  },
+  "13065": {
+    "id": "13065",
+    "regulation_id": 13065,
+    "name": "TCG 63_MACR 2027_06 Draco Zoo/Link Zoo Format",
+    "icon": "RegulationLogo63"
+  },
+  "13066": {
+    "id": "13066",
+    "regulation_id": 13066,
+    "name": "TCG 64_COTD 2017-09 Draco Zoo/Link Zoo Format",
+    "icon": "RegulationLogo64"
+  },
+  "13067": {
+    "id": "13067",
+    "regulation_id": 13067,
+    "name": "TCG 65_CIBR 2017-11 SPYRAL/Magician Format",
+    "icon": "RegulationLogo65"
+  },
+  "13068": {
+    "id": "13068",
+    "regulation_id": 13068,
+    "name": "TCG 65_CIBR 2018-02 SPYRAL/Magician Format",
+    "icon": "RegulationLogo65"
+  },
+  "13069": {
+    "id": "13069",
+    "regulation_id": 13069,
+    "name": "TCG 66_EXFO 2018-05 Secaucus Format",
+    "icon": "RegulationLogo66"
+  },
+  "13070": {
+    "id": "13070",
+    "regulation_id": 13070,
+    "name": "TCG 67_FLOD 2018-09 Danger Format",
+    "icon": "RegulationLogo67"
+  },
+  "13071": {
+    "id": "13071",
+    "regulation_id": 13071,
+    "name": "TCG 68_CYHO 2018-09 Danger Format",
+    "icon": "RegulationLogo68"
+  },
+  "13072": {
+    "id": "13072",
+    "regulation_id": 13072,
+    "name": "TCG 69_SOFU 2019-01 Striker Format",
+    "icon": "RegulationLogo69"
+  },
+  "13073": {
+    "id": "13073",
+    "regulation_id": 13073,
+    "name": "TCG 70_SAST 2019-04 Thunder Dragon Format",
+    "icon": "RegulationLogo70"
+  },
+  "13074": {
+    "id": "13074",
+    "regulation_id": 13074,
+    "name": "TCG 71_DANE 2019-07 Lunalight Format",
+    "icon": "RegulationLogo71"
+  },
+  "13075": {
+    "id": "13075",
+    "regulation_id": 13075,
+    "name": "TCG 72_RIRA 2019-10 Orcust Format",
+    "icon": "RegulationLogo72"
+  },
+  "13076": {
+    "id": "13076",
+    "regulation_id": 13076,
+    "name": "TCG 73_CHIM 2020-01 Rokket Format",
+    "icon": "RegulationLogo73"
+  },
+  "13077": {
+    "id": "13077",
+    "regulation_id": 13077,
+    "name": "TCG 74_IGAS 2020-04 Rokket Format",
+    "icon": "RegulationLogo74"
+  },
+  "13078": {
+    "id": "13078",
+    "regulation_id": 13078,
+    "name": "TCG 75_ETCO 2020-06 Adamancipator Format",
+    "icon": "RegulationLogo75"
+  },
+  "13079": {
+    "id": "13079",
+    "regulation_id": 13079,
+    "name": "TCG 76_ROTD 2020-09 Infernoble Format",
+    "icon": "RegulationLogo76"
+  },
+  "13080": {
+    "id": "13080",
+    "regulation_id": 13080,
+    "name": "TCG 77_PHRA 2020-12 Virtual World Format",
+    "icon": "RegulationLogo77"
+  },
+  "13081": {
+    "id": "13081",
+    "regulation_id": 13081,
+    "name": "TCG 78_BLVO 2021-03 Dragon Link Format",
+    "icon": "RegulationLogo78"
+  },
+  "13082": {
+    "id": "13082",
+    "regulation_id": 13082,
+    "name": "TCG 79_LIOV 2021-07 Tri Zoo Format",
+    "icon": "RegulationLogo79"
+  },
+  "13091": {
+    "id": "13091",
+    "regulation_id": 13091,
+    "name": "TCG 14+ 2005-04 Goat Format",
+    "icon": "RegulationLogo14x"
+  },
+  "13092": {
+    "id": "13092",
+    "regulation_id": 13092,
+    "name": "TCG 27+ 2008-09 Perfect Circle Format",
+    "icon": "RegulationLogo27x"
+  },
+  "13093": {
+    "id": "13093",
+    "regulation_id": 13093,
+    "name": "TCG 39+ 2010-03 Edison Format",
+    "icon": "RegulationLogo39x"
+  },
+  "13094": {
+    "id": "13094",
+    "regulation_id": 13094,
+    "name": "TCG 51+ 2014-04 HAT Format",
+    "icon": "RegulationLogo51x"
+  },
+  "13095": {
+    "id": "13095",
+    "regulation_id": 13095,
+    "name": "TCG 63+ 2017-06 Zoo Format",
+    "icon": "RegulationLogo63x"
+  },
+  "13096": {
+    "id": "13096",
+    "regulation_id": 13096,
+    "name": "TCG 75+ 2019-10 TOSS Format",
+    "icon": "RegulationLogo75x"
+  },
+  "14000": {
+    "id": "14000",
+    "regulation_id": 14000,
+    "name": "TCG 75+ YGOMaster v1.60",
+    "icon": "RegulationLogo75x"
   }
 }
